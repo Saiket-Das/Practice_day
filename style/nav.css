@@ -1,0 +1,42 @@
+/* -----Font------ */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans+Condensed:wght@300&family=Pacifico&family=Poppins:wght@200&display=swap');
+
+/* -----Body Style------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+    margin: 0;
+}
+
+/*------ Header----- */
+.navbar{
+    background-color: #562EFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 94px ;
+}
+
+.nav-anchor ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-anchor li{
+    list-style: none;  
+}
+
+.nav-anchor a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.navbar img{
+    width: 51px;
+    height: 51px;   
+    margin-right: 60px;
+    align-items: center;
+}
